@@ -1,6 +1,6 @@
 import setuptools
 
-from scrapy_playwright import __version__
+from scrapy_undetectable_playwright import __version__
 
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -8,16 +8,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 setuptools.setup(
-    name="scrapy-playwright",
+    name="scrapy-undetectable-playwright",
     version=__version__,
     license="BSD",
     description="Playwright integration for Scrapy",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Eugenio Lacuesta",
-    author_email="eugenio.lacuesta@gmail.com",
-    url="https://github.com/scrapy-plugins/scrapy-playwright",
-    packages=["scrapy_playwright"],
+    author="William Tan",
+    author_email="william@tan.id",
+    url="https://github.com/williammtan/scrapy-undetectable-playwright",
+    packages=["scrapy_undetectable_playwright"],
     classifiers=[
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: BSD License",
